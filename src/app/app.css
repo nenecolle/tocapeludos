@@ -1,0 +1,15 @@
+.toolbar-link {
+    margin-left: 50px;
+}
+
+mat-toolbar {
+    background-color: rgb(221, 254, 221);
+}
+
+mat-toolbar a {
+    margin-left: 50px;
+}
+
+.active {
+    color: black;
+}

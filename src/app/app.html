@@ -1,0 +1,11 @@
+
+<mat-toolbar>
+  <span class="toolbar-link">Toca dos Peludos</span>
+  <span class="toolbar-link">
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a>
+    <a routerLink="/pets" routerLinkActive="active">Nossos Pets</a>
+    <a routerLink="/form" routerLinkActive="active">Se inscreva aqui</a>
+  </span>
+</mat-toolbar>
+
+<router-outlet />
